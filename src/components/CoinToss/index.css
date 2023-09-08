@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.Main-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Content-container {
+  width: 30vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.Heading {
+  color: #a35200;
+  font-family: 'Roboto';
+}
+
+.Heads-or-tails {
+  color: #334155;
+}
+
+.Toss-coin-Button {
+  background-color: #f9d423;
+  border-radius: 5px;
+  color: #a35200;
+  border-width: 0ch;
+  padding: 5px;
+}
+
+.Toss-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Coin-image {
+  height: 120px;
+  width: 120px;
+}
+
+.Count {
+  color: #334155;
+  padding: 15px;
+}
